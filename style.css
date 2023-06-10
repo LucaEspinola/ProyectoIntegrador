@@ -1,0 +1,268 @@
+* {
+    margin: 0 ;
+    padding: 0PX;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+header {
+    background:linear-gradient(to bottom, #153243 , #292a2d);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+
+.logo{
+    height: 45px ;
+    margin-left: 30px;
+}
+
+
+.lista-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lista-nav a {
+    color: #EEF0EB;
+    margin-right: 30px;
+}
+
+.lista-nav li:first-child > a {
+    font-weight: 900;
+}
+ 
+.navbar img{
+    width: 30px;
+    cursor: pointer;
+    display:none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+main{
+    background: #292a2d;
+}
+
+#hero{
+    margin: 0 auto;
+    display: flex;
+   /* margin-top: 88px;*/
+    padding: 70px 0px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuarto{
+    height: 300px;
+    width: 380px;
+}
+
+.hero-info{
+    margin-left: 100px;
+    flex-direction: column;
+    width: 90%;
+}
+
+.hero-info h1 {
+    font-weight: 800;
+    width: 55%;
+    font-size: 34px;
+    background: linear-gradient(to bottom,#6D6027, #D3CBB8  ) ;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero-info p {
+    width: 70%;
+    color: #bebbb6;
+    padding-bottom: 10px;
+}
+
+.padre-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons-hero-info{
+    background: #3378a0;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 9px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons-hero-info a{
+    color: #e4e3e3;
+}
+
+.buttons-a{
+    background: #193b4e;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 9px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons-a a{
+    color: #e4e3e3;
+}
+
+.hero-card {
+    background-color:#153243; ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer-page p{
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 0px 300px;
+    color: #bebbb6;
+    font-weight: 600;
+}
+
+.hr{
+    color: #000;
+}
+
+#info{
+    margin: 0 auto;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#info h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #bebbb6;
+}
+
+.info-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card{
+    height: 300px;
+    width: 290px;
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:#707e88 ;
+    border-radius: 1rem;
+
+}
+
+.info-card img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.info-card p{
+    color: #54535a;
+    font-size: 14px;
+}
+
+#footer-contact{
+ margin: 0 auto;
+ background: #292a2d;
+ padding: 0px 70px;
+}
+
+#footer-contact h2{
+    font-size: 50px;
+    color: #bebbb6;
+    justify-content: flex-start;
+}
+
+
+.contact-bottom{
+    display: flex;
+    gap: 40px;
+    color: #bebbb6;
+    margin-top: 25px;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0px 0px;
+    justify-content: space-between;
+}
+
+.contact-bottom p {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact-bottom h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.contact-bottom img{
+    width: 50%;
+    width: 400px;
+    height: 390;
+}
+
+.redes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+   
+}
+
+.redes h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #bebbb6;
+}
+
+.redes img{
+    width: 40px;
+    cursor: pointer;
+    background: #bebbb6;
+    gap: 40px;
+    border-radius: 9px;
+    margin-left: 40px;
+}
+    
+
