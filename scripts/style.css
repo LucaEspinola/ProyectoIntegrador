@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baumans' ;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#272527 ;
+    height: 80px;
+}
+
+header img{
+    height: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.navbar__list{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+
+.navbar__list a{
+    color: white;
+}
+
+.navbar__label__menu{
+    height: 40px;
+    display: none;
+}
+
+#toggle__menu{
+    display: none;
+}
+
+
+.navbar__list li:first-child > a{
+    font-weight: 800;
+}
+
+#hero{
+    margin: auto;
+    display: flex;
+    padding: 70px 0px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__info{
+    margin: 200px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero__cards {
+    width: 1200px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.hero__cards ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.hero__cards li{
+    list-style: none;
+    width: 100%;
+}
+
+.hero__cards img{
+    width: 350px;
+}
+
+
+
+
+
