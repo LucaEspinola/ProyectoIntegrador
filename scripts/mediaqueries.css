@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    #hero{
+        flex-direction: column;
+    }
+
+    .hero__cards{
+        margin-top: 50px;
+        width: 500px;
+        height: 390px;
+        
+    }
+}
