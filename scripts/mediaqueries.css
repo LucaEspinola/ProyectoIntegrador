@@ -9,6 +9,9 @@
         width: 500px;
         height: 390px;
     }
+    .contact__bottom{
+        padding: unset;
+    }
 }
 
 @media(max-width: 992px){
@@ -54,6 +57,10 @@
     }
 
     #aboutUs p{
+        padding: unset;
+    }
+
+    .contact__bottom{
         padding: unset;
     }
 }
