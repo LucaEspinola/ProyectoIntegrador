@@ -76,4 +76,18 @@
     #aboutUs p{
         padding: unset;
     }
+
+    .contact__bottom{
+        padding: unset;
+    }
+}
+
+@media (max-width: 550px){
+    .hero__cards{
+        display: none;
+    }
+
+    .navbar__list__logeo{
+        padding: unset;
+    }
 }
