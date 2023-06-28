@@ -52,4 +52,21 @@
     .servicios__card{
         flex-direction: column;
     }
+
+    #aboutUs p{
+        padding: unset;
+    }
+}
+
+@media(max-width: 720px){
+    .contact__bottom{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    #aboutUs p{
+        padding: unset;
+    }
 }
