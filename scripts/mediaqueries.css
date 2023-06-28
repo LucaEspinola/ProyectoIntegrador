@@ -1,4 +1,5 @@
 @media (max-width: 1000px) {
+    
     #hero{
         flex-direction: column;
     }
@@ -7,6 +8,48 @@
         margin-top: 50px;
         width: 500px;
         height: 390px;
-        
+    }
+}
+
+@media(max-width: 992px){
+    
+    .navbar__list{ 
+        position: absolute;
+        top: 80px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 45px 20px;
+        gap: 30px;
+        background:#292a2d ;
+        border: 5px solid #3e83ac;
+        border-top: none;
+        border-radius: 0px 0px 10px 10px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar__list__logeo{
+        justify-content: center;
+        text-align: center;
+        margin: 0px 148px;
+        font-size: 18px;
+    }
+
+    #toggle__menu:checked + .navbar__list{
+        display: flex;
+    }
+
+
+    .navbar__label__menu{
+        display: flex;
+        margin-right: 50px;
+    }
+
+    .servicios__card{
+        flex-direction: column;
     }
 }
